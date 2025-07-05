@@ -51,6 +51,13 @@ img {
   background: var(--primary-color);
 }
 
+/* Headings */
+.section-heading {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 /* ====== HEADER ====== */
 .header {
   margin: 1.5rem auto;
@@ -176,5 +183,51 @@ img {
     flex-direction: column;
     gap: 1.5rem;
     text-align: center;
+  }
+}
+
+/* ====== SERVICES ====== */
+.services {
+  background: #333;
+  color: #fff;
+  padding: 3rem 0 4rem;
+}
+
+.services-flex {
+  display: flex;
+  gap: 2rem;
+}
+
+.service-item h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.7rem;
+}
+
+@media (max-width: 768px) {
+  .services-flex {
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+  }
+}
+
+/* ====== TEAM ====== */
+.team {
+  padding: 3rem 0 4rem;
+}
+
+.team-flex {
+  display: flex;
+  gap: 1.4rem;
+}
+
+.team-item img {
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .team-flex {
+    flex-direction: column;
+    gap: 1.5rem;
   }
 }
