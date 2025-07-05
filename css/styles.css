@@ -39,6 +39,11 @@ img {
   max-width: 900px;
 }
 
+/* Backgrounds */
+.bg-primary {
+  background: #fcf5e9;
+}
+
 /* ====== HEADER ====== */
 .header {
   margin: 1.5rem auto;
@@ -77,5 +82,30 @@ img {
   .header .header-flex {
     flex-direction: column;
     gap: 1.5rem;
+  }
+}
+
+/* ====== HERO ====== */
+.hero {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  line-height: 1.4;
+  font-weight: normal;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 300px;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
   }
 }
